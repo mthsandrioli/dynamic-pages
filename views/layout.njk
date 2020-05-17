@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+      <title>Matheus Andrioli</title>
+    {% endblock %}
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="/">Sobre</a>
+        <a href="/topics">Tópicos</a>
+      </div>
+    </header>
+    {% block content %}{% endblock %}
+  </body>
+</html>
