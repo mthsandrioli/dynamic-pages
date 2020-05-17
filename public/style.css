@@ -94,7 +94,7 @@ footer .links a {
   background-color: var(--color-rocket);
   border-radius: 10px;
   display: grid;
-  grid-template-rows: 142px 1fr 1fr;
+  grid-template-rows: auto auto auto;
   cursor: pointer;
 }
 
@@ -159,8 +159,8 @@ footer .links a {
 iframe {
   width: 100%;
   height: 90%;
-  position: absolute;
   top: 5%;
+  position: absolute;
 }
 
 /* --------------- FEATURED --------------- */
@@ -176,6 +176,13 @@ iframe {
   position: absolute;
   right: 5px;
   border-radius: 16px;
-  bottom: -10px;
+  top: -10px;
   font-weight: bold;
+}
+
+/* --------------- PREVIEW PAGE --------------- */
+
+.video {
+  margin: 0 auto;
+  max-width: 800px;
 }
